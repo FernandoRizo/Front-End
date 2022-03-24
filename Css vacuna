@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE-edge">
+        <meta name="Viewport" content="width=device-width, initial-scale=1.0 ">
+    
+        <title>vaccination</title>
+        <style>
+        *{
+          font-family: Arial, Helvetica, sans-serif;  
+        } 
+        body{
+            background-color: rgb(219, 235, 235);
+
+        }
+       
+       
+        .izquierda{
+            
+            text-align:initial;
+        }
+        .derecha{
+            text-align:right;
+            
+        }
+        .centro{
+            text-align: center;
+           
+        }
+        .justificado{
+            text-align: justify;
+        }
+        .contraste{
+           color: rgb(18, 18, 121);
+        }
+        dt{
+            color: rgb(18, 18, 121);
+        }
+        h1{
+            font-weight:900;
+            font-size:xx-large;
+            color: rgb(14, 23, 107);
+           
+          
+        }
+        h3,p,li,table,dl{
+            color: rgb(121, 107, 107);
+            font-size: medium;
+            font-weight: bold;
+        }
