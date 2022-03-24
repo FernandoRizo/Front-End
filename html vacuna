@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE-edge">
+        <meta name="Viewport" content="width=device-width, initial-scale=1.0 ">
+    
+        <title>vaccination</title>
+        <style>
+        *{
+          font-family: Arial, Helvetica, sans-serif;  
+        } 
+        body{
+            background-color: rgb(219, 235, 235);
+
+        }
+       
+       
+        .izquierda{
+            
+            text-align:initial;
+        }
+        .derecha{
+            text-align:right;
+            
+        }
+        .centro{
+            text-align: center;
+           
+        }
+        .justificado{
+            text-align: justify;
+        }
+        .contraste{
+           color: rgb(18, 18, 121);
+        }
+        dt{
+            color: rgb(18, 18, 121);
+        }
+        h1{
+            font-weight:900;
+            font-size:xx-large;
+            color: rgb(14, 23, 107);
+           
+          
+        }
+        h3,p,li,table,dl{
+            color: rgb(121, 107, 107);
+            font-size: medium;
+            font-weight: bold;
+        }
+
+        
+        
+
+        </style>
+    <body>
+        <a href="https://github.com/LaunchX-InnovaccionVirtual" target="blank">Hoax Buster</a>
+        <h2 > vaccination</h2>
+        <h3 class="derecha">Database</h3>
+        <h3 class="derecha">Education</h3>
+        <h3 class="derecha">News</h3>
+        <h3 class="derecha">Regulation</h3>
+        <h1 class="contraste">Fight virus <br> with vaccines</h1>
+        <img src="https://st3.depositphotos.com/21339614/i/600/depositphotos_357457502-stock-photo-girl-doctor-medical-mask-gloves.jpg" alt="" 
+        width="700px" height="500px" class="derecha">
+        <p class="justificado">Let's stop pandemic by killing the virus <br><br> with a vaccine, don't let yourself and your <br><br>
+             family get infected </p> <br>
+        <ul>
+            <li class="contraste">Best protection</li>
+            <li class="contraste">Selected vaccines</li>
+        </ul>
+        <br><br><br><br>
+        <h3 class="contraste">Schedule your vaccionations</h3>
+        <br>
+        <table>
+            <tr>
+                <th>Location</th>
+                <th>Date</th>
+                <th>Vaccine type</th>
+            </tr>
+            <tr>
+                <td class="contraste"> Jakarta Utara</td>
+                <td class="contraste">08 July 2021</td>
+                <td class="contraste">Moderna</td>
+            </tr>
+        </table> <br><br><br><br><hr>
+
+        <h1 class="contraste">Why should I vaccine</h1>
+        <p class="justificado">In order to avoid any doubts about getting the COVID-19<br>vaccine, identify the following
+            4 benefits of COVID-19 <br> vaccination: </p><br><br>
+            <dl>
+                <dt>Minimize the spread of viruses</dt>
+                <br>
+                <dd>Vaccine has been proven <br>
+                    efective to prevent someone <br>
+                    from getting infected with coronavirus</dd> <br>
+
+                <dt>Forming antibodies</dt>
+                <br>
+                <dd>COVID-19 vaccine proven to <br>
+                    help shape antibody <br>
+                    response for inmune system</dd> <br>
+
+                <dt>Protecting people nearby</dt>
+                <br>
+                <dd>The benefits of COVID-19 <br>
+                    vaccionation are the vaccine <br>
+                    that we get can also help <br>
+                    protect people around us
+                </dd><br>
+
+                <dt>Creating group inmunity</dt>
+                <br>
+                <dd>COVID-19 vaccionation is also <br>
+                    benefician for creating group <br>
+                    inmunity or herd inmunity. </dd>
+        
+            </dl><br><br><hr>
+        
+        <h1 class="derecha">Preparations Before Vaccine </h1>
+        <img src="https://img.freepik.com/foto-gratis/enfermera-sobre-fondo-azul-espacio-texto_185193-72405.jpg" alt="" width="700" height="400">
+        <p class="derecha">The succes of vaccines is strongly influenced by the <br>
+        strength of the body's immune system. Therefore there are <br>
+        several things that can be tried to make the COVID-19 <br>
+        vaccine work :</p>
+        <br><br>
+        <dl>
+            <dt class="derecha">Avoid alcoholic bevarages</dt>
+            <br>
+            <dt class="derecha">Avoid stress  </dt><br>
+            <dd class="derecha">Stress has a profound efect on immune work. <br>
+            moreover, prolonged stress can increase cortisol <br>
+            production and oxidative stress in the body.</dd><br>
+            <dt class="derecha">Eath healty food</dt><br>
+            <dt class="derecha">Get enough sleep</dt><br>
+            <dt class="derecha">Exercise or physical activity </dt><br>
+        </dl>
+        <h1 class="contraste">Emergency contact</h1>
+        <img src="https://img.freepik.com/foto-gratis/cerca-persona-que-trabaja-como-enfermera-smartphone-pantalla-tactil-estudio-asistente-medico-estetoscopio-uniforme-azul-guantes-mientras-usa-telefono-celular-sobre-fondo-aislado_482257-28983.jpg" 
+        alt="" width="700px" height="400px">
+        <p class="justificado">Coontact one of the contacts below if you or your family feel <br>
+        unwell and have similar symptoms such as COVID-19, make <br> 
+        sure you also take care of yourself before reporting to us: </p> <br><br>
+
+        <table>
+            <tr>
+                <th>
+                    Call
+                </th>
+                <th>Chat</th>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/LaunchX-InnovaccionVirtual" target="blank">Call now</a></td>
+                <td><a href="https://github.com/LaunchX-InnovaccionVirtual" target="blank">Chat now</a></td>
+            </tr>
+        </table><br><br>
+        <table>
+            <tr>
+                <th>Message</th>
+                <th>Video call</th>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/LaunchX-InnovaccionVirtual" target="blank">Message now</a></td>
+                <td><a href="https://github.com/LaunchX-InnovaccionVirtual" target="blank">Video call now</a></td>
+            </tr>
+        </table><br><br><br><br><hr>
+        <table>
+            <tr class="contraste">
+                <th>About</th>
+                <th>Company</th>
+                <th>Support</th>
+            </tr>
+            <tr>
+                <th>About us <br><br>
+                    Features <br><br>
+                    News & blog</th>
+                <th>
+                    How we work? <br><br>
+                    Capital <br><br>
+                    Security <br><br>
+                </th>
+                <th>
+                    FAQs <br><br>
+                    Support center <br><br>
+                    Contact us
+                </th>
+            </tr>
+        </table>
+        <h2 > vaccination</h2>
+        <p class="justificado">Our goal is to help the <br>
+            world free from the <br> 
+            ongoing pandemic</p><br><br>
+            <p class="justificado">
+                @2021 vaccionation. All rights reserved
+            
+            </p>
+            
+
+    </body>
+    </head>
+
+
+
+
+
+</html>
+
