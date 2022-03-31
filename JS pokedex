@@ -1,0 +1,91 @@
+const FetchPokemon = () => {
+    const PokeName = document.getElementById("pokeName");
+    let PokeInput = PokeName.value.toLowerCase();
+    const url = `https://pokeapi.co/api/v2/pokemon/${PokeInput}`;
+    fetch(url).then((res)=>{
+        if(res.status!="200"){
+            console.log(res);
+            pokeImage("https://c.tenor.com/J6lraJXFl4IAAAAC/pokemon-pikachu.gif")
+        }
+        else{
+            console.log(res);
+        }
+        
+        return res.json();
+    }).then((data)=> {
+        console.log(data);
+        let pokeImg = data.sprites.front_default;
+        console.log(pokeImg);
+        pokeImage(pokeImg);
+        let pokeH = data.abilities.map(pokeH => pokeH.ability.name );
+        console.log(pokeH);
+        pokeHability(pokeH)
+        
+        let pokeN = data.species.name;
+        console.log(pokeN);
+        pokeNombre(pokeN);
+
+        let pokeTy = data.types.map(pokeTy => pokeTy.type.name);
+        console.log(pokeTy);
+        PokeType(pokeTy);
+
+        let HP = data.stats.map(HP => HP.base_stat)
+        console.log(HP[0]);
+        pokeHp(HP[0]);
+
+        let Defense = data.stats.map(Defense => Defense.base_stat)
+        console.log(Defense[2]);
+        pokeDefense(Defense[2]);
+
+        let Attack = data.stats.map(Attack => Attack.base_stat)
+        console.log(Attack[1]);
+        pokeAttack(HP[1]);
+
+        let Speed = data.stats.map(Speed => Speed.base_stat)
+        console.log(Speed[5]);
+        pokeSpeed(HP[5]);
+    })
+}
+// FetchPokemon();
+
+const pokeImage = (url) =>{
+    const pokeImg = document.getElementById("pokeImg");
+    pokeImg.src = url
+}
+
+const pokeHability = (pokeH) =>{
+    const pokemonHability = document.getElementById("pokemonHability");
+    pokemonHability.innerHTML = pokeH
+
+}
+
+const pokeNombre = (pokeN) => {
+    const pokemonNombre = document.getElementById("pokemonNombre");
+    pokemonNombre.innerHTML = pokeN
+}
+
+const PokeType = (pokeTy) =>{
+    const pokemontype = document.getElementById("pokemontype");
+    pokemontype.innerHTML = pokeTy
+}
+
+const pokeHp = (hp) =>{
+    const pokemonHp = document.getElementById("pokemonHp")
+    pokemonHp.innerHTML = hp;
+}
+
+const pokeDefense = (Defense) =>{
+    const pokemonDefense = document.getElementById("pokemonDefense")
+    pokemonDefense.innerHTML = Defense;
+}
+
+const pokeAttack = (Attack) =>{
+    const pokemonAttack = document.getElementById("pokemonAttack")
+    pokemonAttack.innerHTML = Attack;
+}
+
+const pokeSpeed = (Speed) =>{
+    const pokemonSpeed = document.getElementById("pokemonSpeed")
+    pokemonSpeed.innerHTML = Speed;
+}
+ 
