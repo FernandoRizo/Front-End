@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedeck LaunchX</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        body{
+            background-color: rgb(228, 49, 49);
+        }
+        .centro{
+            text-align: center;
+        }
+       .Grande{
+           font-size: xx-large;
+           font-weight: bold;
+       }
+       .mediano{
+           font-size: medium;
+           font-weight: bold;
+           font-family: Georgia, 'Times New Roman', Times, serif;
+       }
+       .chico{
+           font-size: small;
+           font-weight: lighter;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       }
+       div{
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+       }
+       caption{
+           color: rgb(24, 24, 100);
+       }
+       td{
+           color: rgb(175, 196, 196);
+       }
+    </style> 
+</head>
+<body>
+    <h1>Pokedex LaunchX</h1>
+    <h1>
+        <input type="text" placeholder="pikachu" name="pokename" id="pokeName"><br>
+    </h1>
+   
+    <div class="centro">
+        <img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Pokebola-pokeball-png-0.png/769px-Pokebola-pokeball-png-0.png" 
+        id="pokeImg" width="150px" ><br>
+    </div>
+    <h1 class="mediano">
+        <button class="centro" onclick="FetchPokemon()">Change pokemon</button> <br><br>
+    </h1>
+    <!-------------------------------------------- Abilities-------------------------------------------------->
+    <div >
+          
+    </div>
+    
+    <p class="centro">
+        
+    </p>
+    <!-------------------------------------------- NOMBRE-------------------------------------------------->
+
+    <table  cellspacing="10" cellpadding="10"  >
+        <caption class="mediano" > POKEMON DATA</caption>
+        <tr class="mediano">
+            <th class="mediano"> 
+                <label class="centro" for="pokemonNombre">Name </label>
+                
+            </th>
+            <th class="mediano">
+                <label for="pokemontype">Type </label>
+            </th>
+            <th class="mediano">
+                <label for="pokemonHability">Movements</label> 
+            </th>
+            <th class="mediano">
+                <label for="pokemonHp">HP </label>&nbsp;&nbsp;&nbsp;
+            </th>
+            <th class="mediano">
+                <label for="pokemonDefense">Defense </label>&nbsp;&nbsp;&nbsp;
+            </th>
+            <th class="mediano">
+                <label for="pokemonAttack">Attack </label>&nbsp;&nbsp;&nbsp;
+            </th>
+            <th class="mediano">
+                <label for="pokemonSpeed">Speed </label>
+            </td>
+        </tr>
+        <tr>
+            <td class="chico">
+                <span id="pokemonNombre">Query Name</span> &nbsp;&nbsp;&nbsp;
+            </td>
+            <td class="chico">
+                <span id="pokemontype">Query Type</span>&nbsp;&nbsp;&nbsp;
+            </td>
+            <td class="chico">
+                <span id="pokemonHability">query Movements</span>&nbsp;&nbsp;&nbsp;
+            </td>
+            <td class="chico">
+                <span id="pokemonHp">Query HP</span>&nbsp;&nbsp;&nbsp;
+            </td>
+            <td class="chico">
+                <span id="pokemonDefense">Query Defense</span>&nbsp;&nbsp;&nbsp;
+            </td>
+            <td class="chico">
+                <span id="pokemonAttack">Query Attack</span>&nbsp;&nbsp;&nbsp;
+            </td>
+            <td class="chico">
+                <span id="pokemonSpeed">Query Speed</span>
+            </td>
+        </tr>
+    </table>
+
+</body>
+<footer>
+    <script src="./pokedeck.js"></script>
+</footer>
+</html>
